@@ -22,18 +22,29 @@ Sử dụng thư viện [rich](https://github.com/Textualize/rich) để hiển 
 ```bash
 git clone https://github.com/username/movie-cli.git
 cd movie-cli
+```
 2. Tạo và kích hoạt môi trường ảo:
+```
 python -m venv .venv
+```
 # Linux/macOS:
+```
 source .venv/bin/activate
+```
 # Windows:
+```
 .venv\Scripts\activate
+```
 3. Cài thư viện cần thiết:
+```
 pip install -r requirements.txt
-4. cập nhật API_KEY trong config.py
+```
+5. cập nhật API_KEY trong config.py
 ## Sử dụng
 Chạy file chính với tham số --type:
-python src/main.py --type popular
+```
+python main.py --type popular
+```
 Các type có thể dùng:
     playing : Phim đang chiếu
     popular : Phim phổ biến
