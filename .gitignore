@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cài đặt môi trường ảo
+.venv/
+env/
+venv/
+ENV/
+
+# Thư mục chứa logs, cache
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.cache/
+*.pytest_cache/
+*.mypy_cache/
+
+# Thư mục IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# File config môi trường
+.env
+.env.*
+
+# Thư mục build/dist (nếu có)
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Cấu hình hệ thống
+.DS_Store
+Thumbs.db
+
+# Các file tạm hệ thống
+*.swp
+*~
+
+# Python Wheels
+*.whl
