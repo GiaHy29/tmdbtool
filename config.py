@@ -1,3 +1,3 @@
-API_KEY = "a383ee495c282e9f5286c9ddf284211d"
+API_KEY = "{your_api_key}"
 BASE_URL = "https://api.themoviedb.org/3/movie"
 DEFAULT_LANGUAGE = "vi-VN"
